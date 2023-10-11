@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=VT323&display&family=Libre+Baskerville&display=swap');
+
+.pfp-contained img{
+    border-radius: 150px;
+    height: 200px;
+    border: 5px solid #eac3ac;
+    background: #eac3ac;
+}
+
+.pfp {
+    border: 0px;
+}
+
+.titel-cont {
+    color: white;
+}
+
+.page {
+    font-family: 'Libre Baskerville', serif;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    overflow-x: hidden;
+    display: flex;
+    /* text-align: center;  */
+    align-items: center; 
+    /* margin-top: 50px; */
+    background-color: #0e0048;
+    flex-direction: column;
+    /* font-size: 10px; */
+    padding-bottom: 100px;
+}
+
+.continr {
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    padding: 50px 0px 100px 0px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.titel-cont {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    color: #fffc31;
+    
+}
+
+.titel-cont span {
+    font-size: 25px;
+}
+
+.links {
+    width: 100%;
+    height: 56px;
+    margin: 16px;
+    border-radius: 20px;
+
+    /* text and bg */
+    color: #fffc31;
+    text-decoration: none;
+    background-color: #272533;
+
+    display: flex;
+    justify-content: space-between;
+    border: 2.5px white solid;
+
+    transition: background 0.5s ease-in-out;
+}
+
+.links p {
+    margin-right: 60px;
+}
+
+.links:hover {
+    transform: scale(1.02);
+    transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+
+    background-color: #3c394e;
+}
+
+.icon {
+    vertical-align: middle;
+    line-height: 50px;
+    padding-top: 22.5px;
+    margin: 3px 8px;
+    width: 44px;
+    height: 44px;
+}
+
+.HT:hover {
+    color: #eac3ac;
+    font-size: 40px;
+    transform: scale(1.02);
+    transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    transition-delay: 0s, 250ms;
+}
+
+/* extra stuff for the extra things */
+
+.parallax1 {
+    background-image: url(Assets/Kangarooflag.jpg);
+    padding-right: 120px;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8);
+}
+
+.video {
+    margin-top: 60px;
+    padding-bottom: 100px;
+}
+
+.map1 {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.gallery {
+    background-color: #272533;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.clicks {
+    background: none;
+    border: none;
+    color: #fffc31;
+    padding: 30px;
+    font-size: 23px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.invisible {
+    display: none
+}
